@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: aliceblue;
+  background-color: color-mix(in hsl longer hue, rgb(99, 142, 99) 20%, rgb(39, 26, 26) 80%);
+}
+
+button {
+  padding: 8px;
+  border-radius: 20px;
+  border-color: aliceblue;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #4c812e;
+  color: white;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.listitem {
+  border: 2px white solid;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  object-fit: cover;
+  overflow: hidden;
+  width: auto;
+}
+
+.listitem button {
+  margin: 3px;
+  float: right;
+}
+
+.addtaskdiv {
+  margin: 10px;
+  align-items: center;
+}
+
+.addtaskdiv button {
+  margin: 20px;
+  width: 80px;
+}
+
+.save:hover {
+  background-color: cornflowerblue;
+}
+
+.delete:hover {
+  background-color: rgb(195, 81, 55);
+}
+
+.strike {
+  text-decoration: line-through rgb(209, 21, 21) 3px solid;
+}
+
+.text {
+  margin: 3px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 12px;
+
+}
+
+input.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
